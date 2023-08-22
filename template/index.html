@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="english">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Link Shortner</title>
+    <link rel="icon" href="/static/link.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.rtl.min.css" integrity="sha384-PRrgQVJ8NNHGieOA1grGdCTIt4h21CzJs6SnWH4YMQ6G5F5+IEzOHz67L4SQaF0o" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/style.css">
+
+    <title></title>
+  </head>
+  <body>
+    <style>
+      body {
+        background-image: url('/static/image.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+      </style>
+      <nav class="navbar" style="background-color: aqua;">
+          <div>
+         <a class="navbar-brand" href="#">
+            <img src="/static/image2.png" alt="Logo" width="40" height="30" class="d-inline-block align-text-top">
+            Link Shortner
+          </a>
+        </div> 
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <br>
+              <span class="navbar-text">
+                <div style="text-align: end;">
+                <a href="/developer">Developer</a>
+              </span>
+            </div>
+            </div>
+          </div>    
+      </nav>
+    <div class = "container">
+        <div class = "box">
+            <div class = "content">
+            <input type = "text" class = "input" id="original_link"/>
+            <button class = "btn" id = "generate">Generate</button>
+        </div>
+        <div class = "content">
+            <input type = "text" class = "input" id = "shorten_link"/>
+            <button class = "btn" id = "copy">Copy</button>
+        </div>
+     </div>
+    </div>
+    
+   
+    <footer class="foot"><p>© Copyright www.linkshortner.com. All rights reserved. Developed by Sumit Kumar Sharma.</p></footer>
+    <script src="/static/script.js"></script>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
